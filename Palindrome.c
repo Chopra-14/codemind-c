@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int n,t,r=0;
+    int r,t,n,rev=0;
     scanf("%d",&n);
     t=n;
-    while(t>0)
+    while(n>0)
     {
-        int res=t%10;
-        r=(r*10)+res;
-        t=t/10;
+        r=n%10;
+        rev=rev*10+r;
+        n=n/10;
     }
-    if(n==r)
-    printf("Palindrome");
+    if(rev==t)
+    printf("True");
     else
-    printf("Not Palindrome");
+    printf("False");
 }
