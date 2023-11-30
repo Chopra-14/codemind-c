@@ -6,9 +6,9 @@ int main()
     while(n>0)
     {
         rem=n%10;
-        if(large<rem)
+        if(rem>large)
         {
-        large=rem;
+            large=rem;
         }
         n=n/10;
     }
