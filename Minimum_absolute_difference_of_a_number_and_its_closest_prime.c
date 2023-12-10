@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+    int a,b=0,c,d,i,j,e,f;
+    scanf("%d",&a);
+    for(i=2;i>0;i++)
+    {
+        b=0;
+        for(j=2;j<i;j++)
+        {
+            if(i%j==0)
+            {
+                b++;
+                break;
+            }
+        }
+        if(b==0)
+        {
+            if(i<a)
+            {
+                c=i;
+            }
+            else
+{
+    d=i;
+    break;
+}        }
+    }
+    e=a-c;
+    f=d-a;
+    if(e<f)
+    {
+        printf("%d",e);
+    }
+    else
+{
+    printf("%d",f);
+}
+}
