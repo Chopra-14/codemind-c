@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int hours_slept;
+    scanf("%d", &hours_slept);
+    if (hours_slept < 8) 
+        printf("LESS\n");
+else if (hours_slept == 8) printf("PERFECT\n");
+  else  printf("MORE\n");
+}
