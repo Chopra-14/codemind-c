@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+	int i,t,x;
+	scanf("%d",&t);
+	for(i=0;i<t;i++){
+	    scanf("%d",&x);
+	    if(x==6) printf("Yes\n");    else printf("NO\n");
+	    }
+}
