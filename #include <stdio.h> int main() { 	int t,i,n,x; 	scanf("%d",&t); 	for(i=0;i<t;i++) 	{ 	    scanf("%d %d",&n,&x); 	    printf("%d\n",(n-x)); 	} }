@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+	int t,i,n,x;
+	scanf("%d",&t);
+	for(i=0;i<t;i++)
+	{
+	    scanf("%d %d",&n,&x);
+	    printf("%d\n",(n-x));
+	}
+}
+
