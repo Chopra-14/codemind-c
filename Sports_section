@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a==8 || a==9 || a==10) printf("yes\n");
+    else printf("no\n");
+}
