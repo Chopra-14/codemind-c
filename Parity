@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void) {
+      int n,i,x;
+      scanf("%d",&x);
+      for(i=0;i<x;i++) {
+          scanf("%d",&n);
+      if(n%2==0) printf("YES\n");
+      else printf("NO\n");
+      }
+}
