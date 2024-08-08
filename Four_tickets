@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int x;
+	    scanf("%d",&x);
+	    if(x*4<=1000)
+	    printf("yes\n");
+	    else
+	    printf("no\n");
+	}
+}
